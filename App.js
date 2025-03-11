@@ -42,24 +42,51 @@ Excersize - 1 : Variables
 
 */
 
-let var1
-let var2
-let var3
-let var4
+let var1, var2, var3, var4
 
 let varA = "A"
 let varB = "B"
 let varC = "C"
 let varD = "D"
 
-const firstName = 'Dylan'
-const lastName = 'Brodie'
-const studentStatus = 'Enrolled'
-const country = 'New Zealand'
-let age = 28
+const firstNameA = 'Dylan'
+const lastNameA = 'Brodie'
+let studentStatusA = 'Enrolled'
+let countryA = 'New Zealand'
+let ageA = 28
+
+let firstNameB = 'Dylan', lastNameB = 'Brodie', studentStatusB = 'Enrolled', countryB = 'New Zealand', ageB = 28
+// you can't mix and match const and let on the same line
 
 let myAge = 28
 let yourAge = 76
 
 console.log('I am', myAge, 'years old')
 console.log('you are', yourAge, 'years old')
+
+//ANCHOR - Data types
+/*
+Data types
+
+1 - primitive
+2 - non-primitive (object reference)
+
+//SECTION - Primitive data types
+Means primitive data types are immutable data types
+    1-numbers (7 or 7.1)
+    2-strings (any data under single or double quotes)
+    3-boolean (true or false)
+    4-null (empty value or no value)
+    5-undefined (a declared variable without a value)
+
+//SECTION - non-primitive data types (object references)
+Means non-primitive data types are mutable data types
+    1-objects
+    2-functions
+    3-arrays 
+
+*/
+
+let nums = [1,2,3]
+nums[0] = 5
+console.log(nums)
